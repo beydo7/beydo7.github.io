@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><title>ROTIUM</title><meta name="robots" content="noindex">
+<script>
+// Alte Links (…/rotfall-releases/…) auf den neuen Namen umleiten, alles andere zur Startseite
+var p = location.pathname.replace(/^\/rotfall-releases(\/|$)/, '/rotium-releases$1');
+if (p === location.pathname) p = '/rotium-releases/';
+location.replace(p + location.search + location.hash);
+</script></head><body style="background:#100b09;color:#e8dfc8;font:18px sans-serif;text-align:center;padding-top:20vh">
+<a style="color:#d9303e" href="https://beydo7.github.io/rotium-releases/">Weiter zu ROTIUM →</a></body></html>
